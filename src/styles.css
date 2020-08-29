@@ -1,0 +1,114 @@
+button {
+  display: block;
+  margin: 28px auto 52px;
+  background: #aedee4;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease-in-out;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  color: #5ebec7;
+  margin-bottom: -14px;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.4em;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+hr {
+  border-top: 1px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10 px;
+  border-radius: 1px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 60px;
+  background-image: linear-gradient(to top, #dedede 0%, #f5f5f5 100%);
+  border-radius: 10px;
+}
+
+.definition,
+.definition-head {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.definition {
+  font-size: 15px;
+  margin-top: -11px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.definition-h1 {
+  text-transform: uppercase;
+  color: #5ebec7;
+  font-size: 19px;
+}
+
+.footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 12px;
+  opacity: 0.7;
+}
+
+.link {
+  transition: all 150ms ease-in-out;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  display: block;
+  margin: 30px 0px -15px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #5ebec7;
+}
+
+.link-footer {
+  color: black;
+}
+
+.link-footer:hover {
+  transition: all 150ms ease-in-out;
+  color: #5ebec7;
+}
